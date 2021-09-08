@@ -4,7 +4,7 @@ from tracker import *
 # Create tracker object
 tracker = EuclideanDistTracker()
 
-cap = cv2.VideoCapture("UAV.mp4")
+cap = cv2.VideoCapture(0)
 
 
 # Object detection from Stable camera
